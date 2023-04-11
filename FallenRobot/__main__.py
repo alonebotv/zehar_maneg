@@ -486,7 +486,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="⍟ ʙᴏᴛ ⍟", callback_data="Music_bot"),
+                        InlineKeyboardButton(text=" ʙᴏᴛ ", callback_data="Music_bot"),
                         InlineKeyboardButton(
                             text=" ᴇxᴛʀᴀ ",
                             callback_data="Music_extra",
@@ -514,7 +514,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="⍟ ʙᴀᴄᴋ ⍟", callback_data="Music_"),
+                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),
                     ]
                 ]
             ),
@@ -536,7 +536,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="⍟ ʙᴀᴄᴋ ⍟", callback_data="Music_"),
+                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),
                     ]
                 ]
             ),
@@ -557,7 +557,7 @@ c ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="⍟ ʙᴀᴄᴋ ⍟", callback_data="Music_"),
+                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),
                     ]
                 ]
             ),
@@ -576,7 +576,7 @@ c ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="⍟ ʙᴀᴄᴋ ⍟", callback_data="Music_"),
+                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),
                     ]
                 ]
             ),
@@ -871,7 +871,7 @@ def main():
         Fallen_about_callback, pattern=r"fallen_"
     )
     source_callback_handler = CallbackQueryHandler(
-        Source_about_callback, pattern=r"source_"
+        Music_about_callback, pattern=r"Music_"
     )
 
     migrate_handler = MessageHandler(Filters.status_update.migrate, migrate_chats)
@@ -879,6 +879,7 @@ def main():
     dispatcher.add_handler(start_handler)
     dispatcher.add_handler(help_handler)
     dispatcher.add_handler(about_callback_handler)
+    dispatcher.add_handler(Music_callback_handler)
     dispatcher.add_handler(source_callback_handler)
     dispatcher.add_handler(settings_handler)
     dispatcher.add_handler(help_callback_handler)
