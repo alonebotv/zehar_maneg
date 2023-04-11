@@ -88,10 +88,12 @@ buttons = [
         InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="Music_"),
     ]
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
     ],
     [
-
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/kshatriya_World"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/IIHST_NTWRK"),
+    ],
 ]
 
 HELP_STRINGS = f"""
