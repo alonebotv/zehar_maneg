@@ -83,8 +83,8 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(
-            text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="help_back"),
+        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="help_back"),
+
         InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="Music_"),
     ]
     [
