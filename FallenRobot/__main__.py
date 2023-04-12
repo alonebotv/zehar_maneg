@@ -738,6 +738,9 @@ def main():
     settings_handler = CommandHandler("settings", get_settings)
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
 
+    about_callback_handler = CallbackQueryHandler(
+        Fallen_about_callback, pattern=r"fallen_"
+    )
     Music_callback_handler = CallbackQueryHandler(
         Music_about_callback, pattern=r"Music_"
     )
