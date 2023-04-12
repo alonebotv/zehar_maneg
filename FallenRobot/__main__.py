@@ -713,7 +713,7 @@ def main():
                 chat_id=f"@{SUPPORT_CHAT}",
                 photo=START_IMG,
                 caption=f"""
-**✅sᴇxʏ ǫᴜᴇᴇɴ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ✅**
+**✅sᴇxʏ ǫᴜᴇᴇɴ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ**
 ┏━━━━━━━━━━━━━━━┓
 ┣➤ **ᴄʀᴇᴀᴛᴏʀ** :: **[sᴀɴɢʀᴀᴍ](https://t.me/Backup_Bosss)**
 ┣➤ **ᴏᴡɴᴇʀ** :: **[sᴀɴɢʀᴀᴍ](https://t.me/Kalakar_Sangram)**
