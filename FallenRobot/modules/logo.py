@@ -279,7 +279,7 @@ async def lego(event):
         await telethn.send_file(
             event.chat_id,
             file=fname,
-            caption=f"ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ [{BOT_NAME}](https://t.me/{BOT_USERNAME})",
+            caption=f"**ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ [ʀᴇᴅ-ᴡɪɴᴇ](https://t.me/Red_Wine_Op)**",
         )
         await pesan.delete()
         if os.path.exists(fname):
@@ -312,7 +312,7 @@ async def lego(event):
         await telethn.send_file(
             event.chat_id,
             file=fname,
-            caption=f"ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ [{BOT_NAME}](https://t.me/{BOT_USERNAME})",
+            caption=f"**ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ [ʀᴇᴅ-ᴡɪɴᴇ](https://t.me/Red_Wine_Op)**",
         )
         await pesan.delete()
         if os.path.exists(fname):
