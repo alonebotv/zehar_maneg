@@ -72,7 +72,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """────────────────
-𝗛ᴇʟʟᴏ ❣️
+𝗛ᴇʟʟᴏ [❣️](https://te.legra.ph/file/b87f7c93264cc5b72f870.jpg)
 *ɪ ᴀᴍ sᴇxʏ ǫᴜᴇᴇɴ, ᴀ sᴜᴘᴇʀ ᴀᴅᴠᴀɴᴄᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.*
 
 *I'ᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ Fᴇᴀᴛᴜʀᴇꜱ!*
