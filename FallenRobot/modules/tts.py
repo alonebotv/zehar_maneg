@@ -4,7 +4,7 @@ import os
 import requests
 import json
 
-from telegram import ChatAction
+
 from telegram.ext import run_async
 
 from FallenRobot import dispatcher
