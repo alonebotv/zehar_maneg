@@ -17,7 +17,7 @@ async def repo(_, message: Message):
 
 ɪ ᴀᴍ [{BOT_NAME}](https://t.me/{BOT_USERNAME})**
 
-**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ :** [sᴀɴɢʀᴀᴍ](https://t.me/Kalakar_Sangram)
+**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ :** [Owner](https://t.me/B0LT_FUCK3R)
 **» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 **» ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}` 
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
@@ -26,10 +26,10 @@ async def repo(_, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Red_Wine_Op"),
+                    InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/SUKUN_XONE"),
                     InlineKeyboardButton(
                         "ᴜᴘᴅᴀᴛᴇs",
-                        url="https://t.me/WCFnetwork",
+                        url="https://t.me/Its_aubot",
                     ),
                 ]
             ]
