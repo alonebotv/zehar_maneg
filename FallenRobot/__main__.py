@@ -73,7 +73,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 𝗛ᴇʟʟᴏ ❣️
-*ɪ ᴀᴍ sᴇxʏ ǫᴜᴇᴇɴ, ᴀ sᴜᴘᴇʀ ᴀᴅᴠᴀɴᴄᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.*
+*ɪ ᴀᴍ ʟᴏᴠᴇʟʏ ǫᴜᴇᴇɴ, ᴀ sᴜᴘᴇʀ ᴀᴅᴠᴀɴᴄᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.*
 
 *I'ᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ Fᴇᴀᴛᴜʀᴇꜱ!*
 
@@ -834,13 +834,14 @@ def main():
                 chat_id=f"@{SUPPORT_CHAT}",
                 photo=START_IMG,
                 caption=f"""
-**✅sᴇxʏ ǫᴜᴇᴇɴ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ**
-┏━━━━━━━━━━━━━━━┓
-┣➤ **ᴄʀᴇᴀᴛᴏʀ** :: **[sᴀɴɢʀᴀᴍ](https://t.me/Backup_Bosss)**
-┣➤ **ᴏᴡɴᴇʀ** :: **[sᴀɴɢʀᴀᴍ](https://t.me/Kalakar_Sangram)**
-┣➤ **sᴜᴘᴘᴏʀᴛ** :: **[sᴜᴘᴘᴏʀᴛ](https://t.me/Red_Wine_Op)**
-┣➤ **ᴜᴘᴅᴀᴛᴇs** :: **[ᴜᴘᴅᴀᴛᴇs](https://t.me/WCFnetwork)**
-┗━━━━━━━━━━━━━━━┛
+ㅤ🥀 {BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ...
+
+┏•❅────✧❅✦❅✧────❅•┓
+ㅤ★ **ᴘʏᴛʜᴏɴ :** `{y()}`
+ㅤ★ **ʟɪʙʀᴀʀʏ :** `{telever}`
+ㅤ★ **ᴛᴇʟᴇᴛʜᴏɴ :** `{tlhver}`
+ㅤ★ **ᴩʏʀᴏɢʀᴀᴍ :** `{pyrover}`
+┗•❅────✧❅✦❅✧────❅•┛
 """,
                 parse_mode=ParseMode.MARKDOWN,
             )
